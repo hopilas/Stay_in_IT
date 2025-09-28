@@ -206,7 +206,7 @@ z-index: 1;
 }
 
 .Id_0 textarea {
-    left:200px;
+    left:20px;
     position:absolute;
     top:180px;
     font-size: 30px;
@@ -243,5 +243,6 @@ z-index: 1;
     font-family: cursive;
     padding-bottom: 10%;
     white-space: nowrap;
+
 
 }
