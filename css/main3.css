@@ -186,7 +186,7 @@ header nav  {
 
 .Id_2 li a{
     position:absolute;
-    top: 1090px;
+    top: 1100px;
     left:20%;
     border-radius: 5px;
     background: #2d2b33;
@@ -205,5 +205,6 @@ header nav  {
     font-weight: 600;
     font-family: cursive;
     white-space: nowrap;
+
 
 }
