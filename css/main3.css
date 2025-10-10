@@ -101,7 +101,7 @@ header nav  {
 
 .hero2 {
     width: 100%;
-    top: 800px;
+    top: 300px;
     position:absolute;
     margin: 0 auto;
 
@@ -109,9 +109,18 @@ header nav  {
 
 .hero3 {
     width: 100%;
-    top: 1300px;
+    top: 300px;
     position:absolute;
     margin: 0 auto;
+
+}
+
+.hero4 {
+    width: 100%;
+    top: 800px;
+    position:absolute;
+    margin: 0 auto;
+    padding-bottom: 600px;
 
 }
 
@@ -127,10 +136,10 @@ header nav  {
     position:absolute;
     transform: translate(-50%);
     width: auto;
-    left:50%;
+    left:25%;
     max-width: 400px;
     border-radius: 10px;
-    
+    border: 10px solid #2d2b33;
 
 }
 
@@ -141,17 +150,17 @@ header nav  {
     max-width: 400px;
     border-radius: 10px;
     margin-left: auto;
-
+    border: 10px solid #2d2b33;
 }
 
 .Id_0 li a{
     position:absolute;
-    top: 420px;
-    left:50%;
+    top: 430px;
+    left:25%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 137px;
+    padding:10px 148px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -160,12 +169,12 @@ header nav  {
 
 .Id_1 li a{
     position:absolute;
-    top: 420px;
+    top: 430px;
     left:50%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 120px;
+    padding:10px 130px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -176,28 +185,51 @@ header nav  {
 .hero3 img {
     position:absolute;
     transform: translate(-50%);
-    left:50%;
+    left:75%;
     max-width: 400px;
     border-radius: 10px;
-    
-
+    margin-left: auto;
+    border: 10px solid #2d2b33;
 }
 
 
 .Id_2 li a{
     position:absolute;
-    top: 420px;
-    left:50%;
+    top: 430px;
+    left:75%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 137px;
+    padding:10px 145px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
 
 }
 
+.hero4 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:25%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+
+.Id_3 li a{
+    position:absolute;
+    top: 430px;
+    left:25%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 140px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
 .hero00--info h2 {
     text-align: center;
     font-size: 70px;

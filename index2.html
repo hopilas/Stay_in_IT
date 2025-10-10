@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stay-in-IT</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
+     <style>
+        body { font-family: Arial, sans-serif}
+        form { max-width: 400px; margin: auto; }
+        label { display: block; margin: 10px 0; }
+        input[type="radio"] { margin-right: 10px; }
+        button { margin-top: 30px; background: #262232; color: white }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -15,11 +22,27 @@
                     <li><a href='index2.html'>Голосование</a></li>
                     <li><a href='index3.html'>Все Части</a></li>
                     <li><a href='index4.html'>Произошедшее</a></li>
-                    <li><a href='index5.html'>Прочее</a></li>
+                    <li><a href='index5.html'>О проекте</a></li>
                 </ul>
-            </nav>
-        </header>
-        </div>
-    </div>  
+    <h1>Тут будет находиться будущий вопрос.</h1>
+    <form id="questionnaire">
+        <p>Сделайте выбор</p>
+        <label>
+            <input type="radio" name="choice" value="beach" required> Выбор 1
+        </label>
+        <label>
+            <input type="radio" name="choice" value="mountains"> Выбор 2
+        </label>
+        <label>
+            <input type="radio" name="choice" value="city"> Выбор 3
+        </label>
+        
+        <button type="submit">Отправить ответ</button>
+        <h2></h2>
+    </form>
+
+    <div id="results"></div>
+
+</script>
 </body>
 </html>
