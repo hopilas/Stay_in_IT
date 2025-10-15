@@ -105,34 +105,14 @@ h1 {
     padding-top: 7%;
     white-space: nowrap;
 }
-form p {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 400;
-    padding-top: 30px;
-    font-family: cursive;
-    padding-bottom: 10%;
-    white-space: nowrap;
-}
-form label {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    padding-top: 10px;
-    font-family: cursive;
-    padding-bottom: 10%;
-    white-space: nowrap;
-}
-form button {
+h2 {
+    content: '';
     position: absolute;
-    font-size: 20px;
-    white-space: nowrap;
-    width: 30%;
-    padding: 15px;
-    transform: translate(-47%);
-    left:50%;
+    display: block;
+    width: auto;
+    background:#2d2b33 ;
     border-radius: 10px;
-}
-form h2 {
-    padding-bottom: 150px;
+    position: relative;
+    top: -3px;
+    block-size: 45px;
 }
