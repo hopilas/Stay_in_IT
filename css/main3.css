@@ -120,8 +120,13 @@ header nav  {
     top: 800px;
     position:absolute;
     margin: 0 auto;
+}
+.hero5 {
+    width: 100%;
+    top: 800px;
+    position:absolute;
+    margin: 0 auto;
     padding-bottom: 600px;
-
 }
 
 .hero00 {
@@ -160,7 +165,7 @@ header nav  {
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 148px;
+    padding:10px 146px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -174,7 +179,7 @@ header nav  {
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 130px;
+    padding:10px 125px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -200,7 +205,7 @@ header nav  {
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 145px;
+    padding:10px 140px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -224,7 +229,7 @@ header nav  {
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 140px;
+    padding:10px 137px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -236,5 +241,27 @@ header nav  {
     font-weight: 600;
     font-family: cursive;
     white-space: nowrap;
+
+}
+.hero5 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:50%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.Id_4 li a{
+    position:absolute;
+    top: 430px;
+    left:50%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 173px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
 
 }

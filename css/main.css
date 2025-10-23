@@ -95,6 +95,7 @@ header nav  {
 padding-bottom: 1000px;
 position:relative;
 z-index: 1;
+list-style-type: none;
 }
 .hero--info {
     width: 1600px;;
@@ -146,10 +147,11 @@ z-index: 1;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 1020px;
+    top: 1040px;
     max-width: 400px;
     border-radius: 10px;
     display: block;
+    border: 10px solid #2d2b33;
 
 }
 
@@ -157,7 +159,7 @@ z-index: 1;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 1270px;
+    top: 1290px;
     max-width: 400px;
     border-radius: 5px;
     background: #2d2b33;
@@ -175,7 +177,7 @@ z-index: 1;
     font-size: 65px;
     font-weight: 550;
     font-family: cursive;
-    padding-top: 110px;
+    padding-top: 120px;
     white-space: nowrap;
     text-align: center;
     white-space: nowrap;
@@ -220,3 +222,4 @@ z-index: 1;
     white-space: nowrap;
     transform: translate(-50%);
 }
+
