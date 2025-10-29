@@ -110,13 +110,28 @@ header nav  {
 
 }
 .hero1 {
-    width: 100%;
+    width: 90%;
     left: auto;
     top: 400px;
     position:absolute;
     margin: 0 auto;
     padding-bottom: 400px;
+    transform: translate(5%);
 
+}
+.hero2 {
+    width: 90%;
+    left: auto;
+    top: 800px;
+    position:absolute;
+    margin: 0 auto;
+    padding-bottom: 400px;
+    transform: translate(5%);
+}
+.hero1--info {
+    background-color: #b9c0c5;
+    padding-block: 40px;
+    border: 10px solid #2d2b33;
 }
 .hero1--info h2 {
     text-align: center;
@@ -133,12 +148,14 @@ header nav  {
     white-space: nowrap;
 }
 .hero1--info h3 {
+    background-color: #292929;
     padding-top: 40px;
     text-align: center;
     font-size: 30px;
     font-weight: 30px;
     white-space: nowrap;
     color: #1275c5;
+    padding-block: 10px;
 }
 .hero1--info h4 {
     padding-top: 20px;
