@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-weight: 400;
     color: #1e1f20;
 }
@@ -27,12 +27,12 @@ img {
 
 .container {
     min-width: auto;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 header {
-    padding: 0px 0;
+    padding: 50px 0;
 }
 
 
@@ -42,36 +42,23 @@ header nav {
 }
 
 header nav ul {
+    list-style: none;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     z-index: 2;
     position: relative
-}
-
-header nav ul h1 {
-    display: block;
-    width: 50px;
-}
-header nav ul h2 {
-    display: block;
-    width: 95px;
-    max-height: 0px;
 }
 
 header nav ul li {
     display: inline-block;
     font-weight: 600;
     padding-top: 20px;
-    font-size: 120%;
+    font-size: 140%;
     white-space: nowrap;
-
-
 }
 
-
 header nav ul li a {
-    color: #dee3e8;
-    text-align: center;
+    color: #dee3e8; ;
 }
 
 header nav ul li:not(.active):not(.btn) a:hover {
@@ -96,14 +83,9 @@ header nav  {
     background:#2d2b33 ;
     border-radius: 10px;
     position: relative;
-    top: 10px;
-    block-size: 60px; 
-}
-h1 {
-    padding-bottom: 10px;
-}
-h4 {
-    padding-bottom: 100px;
+    top: -30px;
+    block-size: 70px;    
+
 }
 
 
@@ -114,68 +96,51 @@ h4 {
 .hero00 {
     width: 100%;
     left: auto;
-    top: 400px;
+    top: 150px;
     position:absolute;
     margin: 0 auto;
 
 }
 .hero00--info h2 {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
+    font-family: cursive;
     white-space: nowrap;
 
 }
 .hero1 {
     width: 100%;
     left: auto;
-    top: 720px;
+    top: 400px;
     position:absolute;
     margin: 0 auto;
     padding-bottom: 400px;
-}
-.hero2 {
-    width: 100%;
-    left: auto;
-    top: 1220px;
-    position:absolute;
-    margin: 0 auto;
-    padding-bottom: 400px;
-}
-.hero1--info {
-    background-color: #b9c0c5;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-block: 40px;
-    border: 10px solid #2d2b33;
+
 }
 .hero1--info h2 {
     text-align: center;
-    font-size: 40px;
-    font-weight: 320px;
+    font-size: 50px;
+    font-weight: 20px;
     white-space: nowrap;
-    text-decoration: underline;
-    background-color: #a7b0b7;
-    padding-block: 10px;
+    
 }
 .hero1--info h1 {
-    padding-top: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 80px;
-    white-space: nowrap;
-}
-.hero1--info h3 {
-    background-color: #292929;
-    margin-top: 60px;
+    padding-top: 20px;
     text-align: center;
     font-size: 30px;
     font-weight: 20px;
     white-space: nowrap;
-    color: #1275c5;
-    padding-block: 10px;
 }
-.hero1--info h6 {
+.hero1--info h3 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 30px;
+    white-space: nowrap;
+    color: #1275c5;
+}
+.hero1--info h4 {
     padding-top: 20px;
     text-align: center;
     font-size: 30px;
@@ -188,13 +153,4 @@ h4 {
     font-size: 30px;
     font-weight: 20px;
     white-space: nowrap;
-}
-.hero1--info h4 {
-    position: absolute;
-    left:900px;
-    top:270px;
-    font-size: 30px;
-    font-weight: 20px;
-    white-space: nowrap;
-    color: #1275c5;
 }

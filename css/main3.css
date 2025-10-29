@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-weight: 400;
     color: #1e1f20;
 }
@@ -27,12 +27,12 @@ img {
 
 .container {
     min-width: auto;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 header {
-    padding: 0px 0;
+    padding: 50px 0;
 }
 
 
@@ -42,36 +42,23 @@ header nav {
 }
 
 header nav ul {
+    list-style: none;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     z-index: 2;
     position: relative
-}
-
-header nav ul h1 {
-    display: block;
-    width: 50px;
-}
-header nav ul h2 {
-    display: block;
-    width: 95px;
-    max-height: 0px;
 }
 
 header nav ul li {
     display: inline-block;
     font-weight: 600;
     padding-top: 20px;
-    font-size: 120%;
+    font-size: 140%;
     white-space: nowrap;
-
-
 }
 
-
 header nav ul li a {
-    color: #dee3e8;
-    text-align: center;
+    color: #dee3e8; ;
 }
 
 header nav ul li:not(.active):not(.btn) a:hover {
@@ -96,14 +83,9 @@ header nav  {
     background:#2d2b33 ;
     border-radius: 10px;
     position: relative;
-    top: 10px;
-    block-size: 60px; 
-}
-h1 {
-    padding-bottom: 10px;
-}
-h4 {
-    padding-bottom: 100px;
+    top: -30px;
+    block-size: 70px;    
+
 }
 
 
@@ -111,7 +93,7 @@ h4 {
 
 .hero {
     width: 100%;
-    top: 500px;
+    top: 300px;
     position:absolute;
     margin: 0 auto;
 
@@ -119,7 +101,7 @@ h4 {
 
 .hero2 {
     width: 100%;
-    top: 900px;
+    top: 300px;
     position:absolute;
     margin: 0 auto;
 
@@ -127,7 +109,7 @@ h4 {
 
 .hero3 {
     width: 100%;
-    top: 1300px;
+    top: 300px;
     position:absolute;
     margin: 0 auto;
 
@@ -135,30 +117,22 @@ h4 {
 
 .hero4 {
     width: 100%;
-    top: 1700px;
+    top: 800px;
     position:absolute;
     margin: 0 auto;
-
 }
 .hero5 {
     width: 100%;
-    top: 2100px;
-    position:absolute;
-    margin: 0 auto;
-
-}
-.hero6 {
-    width: 100%;
-    top: 2500px;
+    top: 800px;
     position:absolute;
     margin: 0 auto;
     padding-bottom: 600px;
-
 }
+
 .hero00 {
     width: 100%;
     left: auto;
-    top: 300px;
+    top: 150px;
     position:absolute;
     margin: 0 auto;
 
@@ -167,8 +141,8 @@ h4 {
     position:absolute;
     transform: translate(-50%);
     width: auto;
-    left:50%;
-    max-width: 300px;
+    left:25%;
+    max-width: 400px;
     border-radius: 10px;
     border: 10px solid #2d2b33;
 
@@ -177,21 +151,21 @@ h4 {
 .hero2 img {
     position:absolute;
     transform: translate(-50%);
-    width: auto;
     left:50%;
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 10px;
+    margin-left: auto;
     border: 10px solid #2d2b33;
 }
 
 .Id_0 li a{
     position:absolute;
-    top: 330px;
-    left:50%;
+    top: 430px;
+    left:25%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 110px;
+    padding:10px 146px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -200,12 +174,12 @@ h4 {
 
 .Id_1 li a{
     position:absolute;
-    top: 330px;
+    top: 430px;
     left:50%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 90px;
+    padding:10px 125px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -216,8 +190,8 @@ h4 {
 .hero3 img {
     position:absolute;
     transform: translate(-50%);
-    left:50%;
-    max-width: 300px;
+    left:75%;
+    max-width: 400px;
     border-radius: 10px;
     margin-left: auto;
     border: 10px solid #2d2b33;
@@ -226,55 +200,8 @@ h4 {
 
 .Id_2 li a{
     position:absolute;
-    top: 330px;
-    left:50%;
-    border-radius: 5px;
-    background: #2d2b33;
-    color:#dee3e8;
-    padding:10px 110px;
-    font-size: 20px;
-    white-space: nowrap;
-    transform: translate(-50%);
-
-}
-
-.hero4 img {
-    position:absolute;
-    transform: translate(-50%);
-    left:50%;
-    max-width: 300px;
-    border-radius: 10px;
-    margin-left: auto;
-    border: 10px solid #2d2b33;
-}
-
-.Id_3 li a{
-    position:absolute;
-    top: 330px;
-    left:50%;
-    border-radius: 5px;
-    background: #2d2b33;
-    color:#dee3e8;
-    padding:10px 100px;
-    font-size: 20px;
-    white-space: nowrap;
-    transform: translate(-50%);
-
-}
-
-.hero5 img {
-    position:absolute;
-    transform: translate(-50%);
-    width: auto;
-    left:50%;
-    max-width: 300px;
-    border-radius: 10px;
-    border: 10px solid #2d2b33;
-}
-.Id_4 li a{
-    position:absolute;
-    top: 330px;
-    left:50%;
+    top: 430px;
+    left:75%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
@@ -284,30 +211,55 @@ h4 {
     transform: translate(-50%);
 
 }
+
+.hero4 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:25%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+
+.Id_3 li a{
+    position:absolute;
+    top: 430px;
+    left:25%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 137px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
 .hero00--info h2 {
     text-align: center;
     font-size: 70px;
     font-weight: 600;
+    font-family: cursive;
     white-space: nowrap;
 
 }
-.hero6 img {
+.hero5 img {
     position:absolute;
     transform: translate(-50%);
-    width: auto;
     left:50%;
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 10px;
+    margin-left: auto;
     border: 10px solid #2d2b33;
 }
-.Id_5 li a{
+.Id_4 li a{
     position:absolute;
-    top: 330px;
+    top: 430px;
     left:50%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 100px;
+    padding:10px 173px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
