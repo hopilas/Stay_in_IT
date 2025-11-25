@@ -109,6 +109,23 @@ header nav  {
     white-space: nowrap;
 
 }
+.hero00 li a {
+    position: absolute;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    top: 200px;
+    max-width: 400px;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 60px;
+    border:0;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    
+
+}
 .hero1 {
     width: 90%;
     left: auto;
