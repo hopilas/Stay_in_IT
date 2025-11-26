@@ -147,6 +147,13 @@ header nav  {
     margin: 0 auto;
     
 }
+.hero9 {
+    width: 100%;
+    top: 1300px;
+    position:absolute;
+    margin: 0 auto;
+    
+}
 
 .hero00 {
     width: 100%;
@@ -341,6 +348,28 @@ header nav  {
     position:absolute;
     top: 340px;
     left:50%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 85px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
+.hero9 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:75%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.Id_8 li a{
+    position:absolute;
+    top: 340px;
+    left:75%;
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;

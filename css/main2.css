@@ -107,12 +107,20 @@ h1 {
 }
 h2 {
     content: '';
-    position: absolute;
+    position:absolute;
     display: block;
-    width: auto;
+    width: 100%;
     background:#2d2b33 ;
-    border-radius: 10px;
-    position: relative;
-    top: -3px;
-    block-size: 45px;
+    top: 600px;
+    block-size: 10px;
+}
+h4 {
+    padding-top: 100px;
+
+}
+h3 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    text-align: center;
 }
