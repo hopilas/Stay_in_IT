@@ -225,18 +225,29 @@ list-style-type: none;
 }
 
 .hero00 {
-    padding-bottom: 1800px;
+    grid: 2000px;
+    position:absolute;
+    padding-bottom: 4000px;
     position:relative;
     z-index: 1;
-    list-style-type: none;
 }
-.hero00 img {
-    top:200px;
-    position:absolute;
-    transform: translate(-50%);
-    left:50%;
-    max-width: 1000px;
+.hero00 .Id_0 img {
+    position: absolute;
+    top:1100px ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.hero00 .Id_1 img {
+    position: absolute;
+    top:2900px ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
     border: 10px solid #2d2b33;
 }
