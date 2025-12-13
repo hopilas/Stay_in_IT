@@ -138,7 +138,6 @@ header nav  {
     top: 1300px;
     position:absolute;
     margin: 0 auto;
-    padding-bottom: 600px;
 }
 .hero8 {
     width: 100%;
@@ -150,6 +149,20 @@ header nav  {
 .hero9 {
     width: 100%;
     top: 1300px;
+    position:absolute;
+    margin: 0 auto;
+    
+}
+.hero10 {
+    width: 100%;
+    top: 1800px;
+    position:absolute;
+    margin: 0 auto;
+    padding-bottom: 600px;
+}
+.hero11 {
+    width: 100%;
+    top: 1800px;
     position:absolute;
     margin: 0 auto;
     
@@ -183,6 +196,7 @@ header nav  {
     margin-left: auto;
     border: 10px solid #2d2b33;
 }
+
 
 .Id_0 li a{
     position:absolute;
@@ -329,7 +343,7 @@ header nav  {
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 95px;
+    padding:10px 85px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -351,7 +365,7 @@ header nav  {
     border-radius: 5px;
     background: #2d2b33;
     color:#dee3e8;
-    padding:10px 85px;
+    padding:10px 75px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
@@ -374,6 +388,51 @@ header nav  {
     background: #2d2b33;
     color:#dee3e8;
     padding:10px 85px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
+
+.hero10 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:25%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.Id_9 li a{
+    position:absolute;
+    top: 340px;
+    left:25%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 105px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
+.hero11 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:50%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.Id_10 li a{
+    position:absolute;
+    top: 340px;
+    left:50%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 70px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
