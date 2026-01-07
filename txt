@@ -22,7 +22,7 @@
                     <li><a href='VoteMenu.html'>Голосование</a></li>
                     <li><a href='ReadMenu.html'>Все Части</a></li>
                     <li><a href='HistoryMenu.html'>Произошедшее</a></li>
-                    <li><a href='AboutMenu.html'>О проекте</a></li>
+                    <li><a href='AboutMenu.html'>Персонажи</a></li>
                 </ul>
                 <div class="hero container">
         <h3>Ну, удиви сестрёнку.</h3>

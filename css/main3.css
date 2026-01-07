@@ -158,7 +158,6 @@ header nav  {
     top: 1800px;
     position:absolute;
     margin: 0 auto;
-    padding-bottom: 600px;
 }
 .hero11 {
     width: 100%;
@@ -166,6 +165,20 @@ header nav  {
     position:absolute;
     margin: 0 auto;
     
+}
+.hero12 {
+    width: 100%;
+    top: 1800px;
+    position:absolute;
+    margin: 0 auto;
+    
+}
+.hero13 {
+    width: 100%;
+    top: 2300px;
+    position:absolute;
+    margin: 0 auto;
+    padding-bottom: 600px;
 }
 
 .hero00 {
@@ -433,6 +446,50 @@ header nav  {
     background: #2d2b33;
     color:#dee3e8;
     padding:10px 70px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
+.hero12 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:75%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.Id_11 li a{
+    position:absolute;
+    top: 340px;
+    left:75%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 80px;
+    font-size: 20px;
+    white-space: nowrap;
+    transform: translate(-50%);
+
+}
+.hero13 img {
+    position:absolute;
+    transform: translate(-50%);
+    left:25%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 10px solid #2d2b33;
+}
+.Id_12 li a{
+    position:absolute;
+    top: 340px;
+    left:25%;
+    border-radius: 5px;
+    background: #2d2b33;
+    color:#dee3e8;
+    padding:10px 98px;
     font-size: 20px;
     white-space: nowrap;
     transform: translate(-50%);
