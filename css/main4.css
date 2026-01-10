@@ -154,6 +154,15 @@ header nav  {
     padding-bottom: 400px;
     transform: translate(5%);
 }
+.hero4 {
+    width: 90%;
+    left: auto;
+    top: 1600px;
+    position:absolute;
+    margin: 0 auto;
+    padding-bottom: 400px;
+    transform: translate(5%);
+}
 .hero1--info {
     background-color: #dde2e4;
     padding-block: 40px;
